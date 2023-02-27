@@ -8,11 +8,11 @@ import { PORT } from "./config.js"
 const app = express()
 
 app.get('/', (req, res)=>{
-    res.send('<h1>WELCOME</h1>')
+    res.send('<h1>Hola Marce</h1>')
 })
 
 app.get('/about', (req, res)=>{
-    res.send('<h1>ei tonce que...</h1>')
+    res.send('<h1>Como te va ala carachas!...</h1>')
 })
 
 app.listen(PORT)
